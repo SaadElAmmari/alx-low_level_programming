@@ -2,8 +2,8 @@
 
 
 /**
- * main - prints "Programming is like building a multilingual puzzle, followed by a new line."
- * return 0.
+ * main - prints "Programming is like building a multilingual puzzle, followed by a new line.
+ * Return: Always  0.
  */
 int main(void)
 
