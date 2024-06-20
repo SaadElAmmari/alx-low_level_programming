@@ -1,6 +1,6 @@
 /*
  * File: 5-printf.c
- * Description: A C program that prints a specific string with proper grammar.
+ * Desc: A C program that prints a specific string with proper grammar.
  */
 
 #include <stdio.h>
@@ -12,8 +12,8 @@
  */
 int main(void)
 {
-    /* Print the desired string */
-    printf("with proper grammar, but the outcome is a piece of art,\n");
+	/* Print the desired string */
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-    return (0);
+	return (0);
 }
