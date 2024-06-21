@@ -11,17 +11,17 @@
  */
 int main(void)
 {
-    char letter;
+	char letter;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        if (letter != 'e' && letter != 'q')
-        {
-            putchar(letter); /* Print each letter except 'e' and 'q' */
-        }
-    }
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		if (letter != 'e' && letter != 'q')
+		{
+			putchar(letter); /* Print each letter except 'e' and 'q' */
+		}
+	}
 
-    putchar('\n'); /* Print a newline character */
+	putchar('\n'); /* Print a newline character */
 
-    return 0; /* Return 0 to indicate successful execution */
+	return (0); /* Return 0 to indicate successful execution */
 }
