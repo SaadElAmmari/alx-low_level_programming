@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - This is where the magic happens
+ * main - Entry point of the program
  *
- * Description: This program simply prints out the entire lowercase alphabet
- * in one go, followed by a new line. It's done using only the putchar function
- * to meet strict requirements. No fancy stuff, just straightforward printing.
+ * Description:
+ * This program prints the alphabet in lowercase
+ * followed by a new line using the putchar function.
  *
  * Return: Always 0 (Success)
  */
@@ -13,12 +13,11 @@ int main(void)
 {
     char letter;
 
-    // Loop through each letter from 'a' to 'z'
     for (letter = 'a'; letter <= 'z'; letter++)
     {
-        putchar(letter);  // Print each letter
+        putchar(letter);  // Print each letter using putchar
     }
-    
+
     putchar('\n');  // Print a newline after the alphabet
 
     return 0;
