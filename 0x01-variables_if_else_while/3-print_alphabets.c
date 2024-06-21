@@ -16,15 +16,15 @@ int main(void)
 
     for (letter = 'a'; letter <= 'z'; letter++)
     {
-        putchar(letter);  // Print each lowercase letter
+        putchar(letter);  /* Print each lowercase letter */
     }
 
     for (letter = 'A'; letter <= 'Z'; letter++)
     {
-        putchar(letter);  // Print each uppercase letter
+        putchar(letter);  /* Print each uppercase letter */
     }
 
-    putchar('\n');  // Print a newline character
+    putchar('\n');  /* Print a newline character */
 
     return 0;
 }
