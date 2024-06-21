@@ -12,19 +12,19 @@
  */
 int main(void)
 {
-	char letter;
+    char letter;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-	{
-		putchar(letter); /* Print each lowercase letter */
-	}
+    for (letter = 'a'; letter <= 'z'; letter++)
+    {
+        putchar(letter); /* Print each lowercase letter */
+    }
 
-	for (letter = 'A'; letter <= 'Z'; letter++)
-	{
-		putchar(letter); /* Print each uppercase letter */
-	}
+    for (letter = 'A'; letter <= 'Z'; letter++)
+    {
+        putchar(letter); /* Print each uppercase letter */
+    }
 
-	putchar('\n'); /* Print a newline character */
+    putchar('\n'); /* Print a newline character */
 
-	return 0; /* Return 0 to indicate successful execution */
+    return (0); /* Return 0 to indicate successful execution */
 }
