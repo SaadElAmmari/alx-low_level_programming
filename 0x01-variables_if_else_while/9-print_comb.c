@@ -10,20 +10,20 @@
  */
 int main(void)
 {
-	int digit;
+    int digit;
 
-	for (digit = 0; digit <= 9; digit++)
-	{
-		putchar(digit + '0');
+    for (digit = 0; digit <= 9; digit++)
+    {
+        putchar(digit + '0');
 
-		if (digit != 9)
-		{
-			putchar(',');  // Print comma
-			putchar(' ');  // Print space
-		}
-	}
+        if (digit != 9)
+        {
+            putchar(',');
+            putchar(' ');
+        }
+    }
 
-	putchar('\n');  // Print newline
+    putchar('\n');
 
-	return (0);
+    return (0);
 }
