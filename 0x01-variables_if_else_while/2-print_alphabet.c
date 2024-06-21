@@ -11,14 +11,14 @@
  */
 int main(void)
 {
-    char letter;
+	char letter;
 
-    for (letter = 'a'; letter <= 'z'; letter++)
-    {
-        putchar(letter);  /* Print each letter using putchar */
-    }
+	for (letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(letter); /* Print each letter using putchar */
+	}
 
-    putchar('\n');  /* Print a newline after the alphabet */
+	putchar('\n'); /* Print a newline after the alphabet */
 
-    return 0;
+	return (0); /* Return 0 to indicate successful execution */
 }
