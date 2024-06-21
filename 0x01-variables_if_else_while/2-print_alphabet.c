@@ -15,10 +15,10 @@ int main(void)
 
     for (letter = 'a'; letter <= 'z'; letter++)
     {
-        putchar(letter);  // Print each letter using putchar
+        putchar(letter);  /* Print each letter using putchar */
     }
 
-    putchar('\n');  // Print a newline after the alphabet
+    putchar('\n');  /* Print a newline after the alphabet */
 
     return 0;
 }
