@@ -1,35 +1,32 @@
-#include <stdio.h> /* Include the standard I/O header for printf */
+#include <stdio.h>
 
 /**
- * print_to_98 - Prints all natural numbers from n to 98, followed by a new line
- * @n: Starting number
+ * print_to_98 - Prints all natural numbers from n to 98, followed by a new line.
+ * @n: Starting number.
  *
- * Return: void
+ * Return: void.
  */
 void print_to_98(int n)
 {
-	int i; /* Declare loop control variable outside the for loop */
+    int i;
 
-	/* Print numbers from n to 98 */
-	if (n <= 98)
-	{
-		/* Incrementing loop */
-		for (i = n; i <= 98; ++i)
-		{
-			printf("%d", i);
-			if (i != 98)
-				printf(", ");
-		}
-	}
-	else
-	{
-		/* Decrementing loop */
-		for (i = n; i >= 98; --i)
-		{
-			printf("%d", i);
-			if (i != 98)
-				printf(", ");
-		}
-	}
-	printf("\n"); /* Print newline at the end */
+    if (n <= 98)
+    {
+        for (i = n; i <= 98; ++i)
+        {
+            printf("%d", i);
+            if (i != 98)
+                printf(", ");
+        }
+    }
+    else
+    {
+        for (i = n; i >= 98; --i)
+        {
+            printf("%d", i);
+            if (i != 98)
+                printf(", ");
+        }
+    }
+    printf("\n");
 }
