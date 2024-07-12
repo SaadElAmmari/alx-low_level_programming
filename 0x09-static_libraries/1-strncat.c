@@ -1,4 +1,4 @@
-o#include "main.h"
+#include "main.h"
 
 /**
  * _strncat - concatenates two strings
